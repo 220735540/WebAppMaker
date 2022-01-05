@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=WebApp Maker
+Comment=Make WebApps
+Exec=python3 /home/pi/WebAppMaker/app/visual.py
+Icon=/home/pi/WebAppMaker/Data/icon.png
+Categories=Utility;
+Type=Application
+Terminal=false
