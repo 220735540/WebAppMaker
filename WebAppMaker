@@ -2,7 +2,7 @@
 Name=WebApp Maker
 Comment=Make WebApps
 Exec=python3 /home/pi/WebAppMaker/app/visual.py
-Icon=/home/pi/WebAppMaker/Data/icon.png
+Icon=/home/pi/WebAppMaker/Data/icon-higher.png
 Categories=Utility;
 Type=Application
 Terminal=false
