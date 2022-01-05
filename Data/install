@@ -30,10 +30,6 @@ function warning {
 #Clone repo
 cd ~
 git clone $RepoUrl|| error "Unable to clone ${AppName}'s repo!" exit
-#Cd into repo
-cd ~/Krunker-RaspberryPi/ || error "Unable to cd into ${AppName}!"
-#Install Dependencies
-./dependencies
 #Install app
 sudo mv /home/pi/WebAppMaker/WebAppMaker.desktop $HOME/.local/share/applications/ || error 'Failed to move application' 
 sudo mv /home/pi/WebAppMaker/WebAppMaker $HOME/Desktop/ || error 'Failed to move application To Desktop' 
