@@ -64,7 +64,7 @@ class login(Tk):
             sel = self.category.get()
             file = open(f'{app_name[:-1:]}', 'w+')
             file.write("[Desktop Entry]\nVersion=1.0\nName=" + app_name + "Comment=Web App Built With WebApp Maker\nExec=chromium-browser --app=https://" + web_domain + """Terminal=false\nX-MultipleArgs=false\nType=Application\nIcon=""" + icon_location +"""Categories=GTK;"""+ sel + """;\nMimeType=text/html;text/xml;application/xhtml_xml;\nStartupWMClass=""" + app_name +"""StartupNotify=true\nX-WebApp-URL=https://""" + web_domain +"""X-WebApp-Isolated=true""")
-            os.system(f'mv /home/pi/WebAppMaker/{app_name[:-1:]} /home/pi/Desktop/')
+            os.system(f'mv /home/pi/WebAppMaker/app/{app_name[:-1:]} /home/pi/Desktop/')
             self.finish=Canvas(self, width=500, height=360,borderwidth=0,highlightthickness=0)
             self.finish['bg']='#ffffff'
             self.finish.place(x=103,y=65)
