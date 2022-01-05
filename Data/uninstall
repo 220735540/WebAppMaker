@@ -29,6 +29,7 @@ warning 5 "Warning: Uninstall $AppName will remove any saved data associated wit
 rm -rf ~/Krunker-RaspberryPi || error 'Failed to remove $AppName folder'
 sudo rm -rf ~/.local/share/applications/WebAppMaker.desktop || error 'Failed to unistall app'
 sudo rm -rf ~/Desktop/WebAppMaker || error 'Failed to unistall app'
+sudo rm -rf ~/WebAppMaker/
 #Inform user that the uninstall has finished
 echo 'Uninstall Finished...'
 #Check if finished with errors
