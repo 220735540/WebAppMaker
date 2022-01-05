@@ -20,7 +20,7 @@ class login(Tk):
         self.appName.place(x=200,y=170)
         self.appName['bg']='#ffffff'
         #Domain
-        self.webDomain=Label(self,text="Web Domain (https://example.com)",font="Courier 10")
+        self.webDomain=Label(self,text="Web Domain (Url)",font="Courier 10")
         self.webDomain.place(x=200,y=225)
         self.webDomain['bg']='#ffffff'
         #Category
